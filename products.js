@@ -2,9 +2,9 @@ const products = [
 
 {
 id:1,
-name:"Memory Foam Mattress",
+name:"Memory-Foam Mattress",
 price:12999,
-image:"images/Memory-Foam.jpg",
+image:"IMAGES/Memory-Foam.jpg",
 description:"Premium memory foam mattress with excellent back support and comfortable sleep."
 },
 
@@ -12,15 +12,15 @@ description:"Premium memory foam mattress with excellent back support and comfor
 id:2,
 name:"Orthopedic Mattress",
 price:15999,
-image:"images/orthopadic.jpg",
+image:"IMAGES/orthopadic.jpg",
 description:"Orthopedic mattress specially designed for spine support and healthy posture."
 },
 
 {
 id:3,
-name:"Luxury Mattress",
+name:"Luxury mattress",
 price:18999,
-image:"images/luxery matress.jpg",
+image:"IMAGES/luxery matress.jpg",
 description:"Luxury mattress with premium fabric and extra comfort for better sleep."
 },
 
@@ -28,7 +28,7 @@ description:"Luxury mattress with premium fabric and extra comfort for better sl
 id:4,
 name:"Spring Mattress",
 price:14999,
-image:"images/spring.webp",
+image:"IMAGES/spring.webp",
 description:"Spring mattress with breathable material and long-lasting durability."
 }
 
