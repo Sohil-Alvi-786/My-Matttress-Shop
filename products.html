@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products - My Mattress Shop</title>
+
+<link rel="stylesheet" href="CSS/style.CSS">
+<link rel="stylesheet" href="CSS/responsive.CSS">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>🛏 My Mattress Shop</h2>
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="featured">
+
+<h2>Our Mattress Collection</h2>
+
+<div class="search-box">
+    <input type="text" id="search" placeholder="Search Mattress..." onkeyup="searchProducts()">
+</div>
+<div class="category-buttons">
+
+<button onclick="filterProducts('all')">All</button>
+
+<button onclick="filterProducts('Memory')">Memory</button>
+
+<button onclick="filterProducts('Orthopedic')">Orthopedic</button>
+
+<button onclick="filterProducts('Luxery')">Luxery</button>
+
+<button onclick="filterProducts('Spring')">Spring</button>
+
+</div>
+<div class="sort-box">
+
+<select id="sort" onchange="sortProducts()">
+
+<option value="default">Sort By Price</option>
+
+<option value="low">Low to High</option>
+
+<option value="high">High to Low</option>
+
+</select>
+
+</div>
+
+<div class="product-container" id="products-container">
+
+</div>
+
+</section>
+
+<script src="JS/products.JS"></script>
+<script src="JS/cart.JS"></script>
+<script src="JS/ui.JS"></script>
+<footer class="footer">
+    <p>© 2026 My Mattress Shop | Designed by Mohd Sohil Ali</p>
+</footer>
+
+</body>
+</html>
