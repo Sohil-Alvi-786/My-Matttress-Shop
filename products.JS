@@ -173,7 +173,7 @@ container.innerHTML += `
 
 <div class="card">
 
-<img src="${product.IMAGES}">
+<img src="${product.image}">
 
 <h3>${product.name}</h3>
 
