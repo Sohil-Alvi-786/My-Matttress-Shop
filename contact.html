@@ -33,15 +33,15 @@
 
 <h2>Contact Us</h2>
 
-<form id="contactForm">
+ <form action="https://formsubmit.co/akbaralvi321@example.com" method="POST">
 
-<input type="text" id="name" placeholder="Your Name"><br><br>
+<input type="text" name="name" placeholder="Your Name" required>
 
-<input type="email" id="email" placeholder="Your Email"><br><br>
+<input type="email" name="email" placeholder="Your Email" required>
 
-<input type="text" id="subject" placeholder="Subject"><br><br>
+<input type="text" name="subject" placeholder="Subject" required>
 
-<textarea id="message" rows="6" placeholder="Your Message"></textarea><br><br>
+<textarea name="message" placeholder="Your Message" required></textarea>
 
 <button type="submit">Send Message</button>
 
@@ -52,8 +52,6 @@
 <footer class="footer">
 <p>© 2026 My Mattress Shop | Designed by Mohd Sohil Ali</p>
 </footer>
-
-<script src="JS/validate.JS"></script>
 
 </body>
 </html>
